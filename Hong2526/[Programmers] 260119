@@ -1,0 +1,11 @@
+#1 숫자 비교하기
+# 오답 풀이: num1 - num2 = 0 -> 문법 오류
+# 등호 표기는 == , 변수 지정을 =
+
+def solution(num1, num2):
+    answer = 0
+    if num1 - num2 == 0:
+        answer = 1
+    else:
+        answer = -1
+    return answer
